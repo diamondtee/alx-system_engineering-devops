@@ -1,2 +1,2 @@
-#!/bin/bash
-chown -h vincent:staff_hello
+ln -s hello _hello
+echo -e ‘#!/bin/bash\nchown -h vincent:staff _hello’ > filename
